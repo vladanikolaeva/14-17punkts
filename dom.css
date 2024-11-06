@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.domjs-container {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 65%;
+    float: right;
+    padding-right: 40px;
+
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: black;
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #ff2ec7;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3 {
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+}

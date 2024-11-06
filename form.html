@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link href="dom.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="domjs"></div>
+    <header class="domjs-container">
+        <nav>
+            <ul>
+                <li><a href="dom.html">DOM_JS. Считываем информацию из DOM</a></li>
+                <li><a href="index.html">Изменяем кириллицу на латиницу по клику</a></li>
+                <li><a href="task.html">Решение алгоритмической задачи</a></li>
+                <li class="active"><a href="form.html">Форма</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="domjs"></div>
+    <p id="task_content">Дано. Номер места в плацкартном вагоне. Определить, какое это место: верхнее или нижнее, в купе или боковое.</p>
+    <form action="http://www.bing.com/search?q=my+query&go=&form=QBLH&filt=all&qs=n&sk=" id="UserEnter" method="GET" name="UserEnter" target="_blank">
+        <ul>
+    <li>Для поисковика:<input name="q" value="search"></li>
+    <li>Формулировка задачи <input name="formulation"  value="Дано. Номер места в плацкартном вагоне. Определить, какое это место: верхнее или нижнее, в купе или боковое."></li>
+    <li>Номер места: <input id="seatNumber" name="seatNumber"  type="number" value=48></li>
+    <li>Результат решения: <input id="result" name="result" value="не определен" readonly></li>
+    <li>Действие 1: <input id="verify" type="button" value="Оценить"></li>
+    <li>Действие 2: <input id="send" type="button" value="Отправить"></li>
+</ul>
+</form>
+<script src="./form.js"></script>
+
+
+</body>
+</html>
+
